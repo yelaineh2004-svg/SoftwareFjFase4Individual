@@ -1,4 +1,4 @@
-"""Excepciones personalizadas del sistema Software FJ."""
+"""Excepciones personalizadas del sistema software-fj-fase4-individual."""
 class ErrorSistema(Exception):
     """Clase base para errores controlados."""
 class DatosInvalidosError(ErrorSistema):
