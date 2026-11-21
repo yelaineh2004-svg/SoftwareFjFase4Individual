@@ -1,4 +1,4 @@
-"""Punto de entrada y pruebas de integración del sistema software-fj-fase4-individual."""
+"""Punto de entrada y pruebas de integración del sistema SoftwareFjFase4Individual."""
 from models.cliente import Cliente
 from models.reserva import Reserva
 from models.servicio import Servicio
@@ -14,7 +14,7 @@ from models.reserva import Reserva
 from exceptions.excepciones import DatosInvalidosError
 from utils.logger import logger
 
-class Gestorsoftware-fj-fase4-individual:
+class GestorSoftwareFjFase4Individual:
     """Administra clientes, servicios y reservas en memoria."""
 
     def __init__(self):
@@ -74,7 +74,7 @@ def ejecutar_operacion(numero, descripcion, funcion):
 
 
 def main():
-    sistema = Gestorsoftware-fj-fase4-individual()
+    sistema = GestorSoftwareFjFase4Individual()
 
     # Objetos iniciales para las demostraciones.
     cliente1 = Cliente("C001", "Laura Pérez", "laura@email.com", "3001234567")
@@ -160,7 +160,7 @@ def main():
 
     # Resumen final: el programa llega aquí aunque existan errores controlados.
     print("\n" + "=" * 65)
-    print("RESUMEN FINAL DEL SISTEMA SOFTWARE FJ")
+    print("RESUMEN FINAL DEL SISTEMA SoftwareFjFase4Individual")
     print("=" * 65)
     print(f"Clientes registrados: {len(sistema.clientes)}")
     print(f"Servicios registrados: {len(sistema.servicios)}")
@@ -178,7 +178,7 @@ def main():
     for elemento in sistema.listar_reservas():
         print("-", elemento)
 
-    print("\nEl sistema finalizó correctamente. Consulte logs/software-fj-fase4-individual.log.")
+    print("\nEl sistema finalizó correctamente. Consulte logs/SoftwareFjFase4Individual.log.")
 
 
 if __name__ == "__main__":
