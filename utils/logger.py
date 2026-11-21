@@ -4,7 +4,7 @@ from pathlib import Path
 
 LOG_DIR = Path(__file__).resolve().parent.parent / "logs"
 LOG_DIR.mkdir(exist_ok=True)
-logger = logging.getLogger("software-fj-fase4-individual")
+logger = logging.getLogger("SoftwareFjFase4Individual")
 logger.setLevel(logging.INFO)
 if not logger.handlers:
     formatter = logging.Formatter("%(asctime)s | %(levelname)s | %(message)s")
