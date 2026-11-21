@@ -1,4 +1,4 @@
-"""Punto de entrada y pruebas de integración del sistema Software FJ."""
+"""Punto de entrada y pruebas de integración del sistema software-fj-fase4-individual."""
 from models.cliente import Cliente
 from models.reserva import Reserva
 from models.servicio import Servicio
@@ -14,7 +14,7 @@ from models.reserva import Reserva
 from exceptions.excepciones import DatosInvalidosError
 from utils.logger import logger
 
-class GestorSoftwareFJ:
+class Gestorsoftware-fj-fase4-individual:
     """Administra clientes, servicios y reservas en memoria."""
 
     def __init__(self):
@@ -74,7 +74,7 @@ def ejecutar_operacion(numero, descripcion, funcion):
 
 
 def main():
-    sistema = GestorSoftwareFJ()
+    sistema = Gestorsoftware-fj-fase4-individual()
 
     # Objetos iniciales para las demostraciones.
     cliente1 = Cliente("C001", "Laura Pérez", "laura@email.com", "3001234567")
@@ -178,7 +178,7 @@ def main():
     for elemento in sistema.listar_reservas():
         print("-", elemento)
 
-    print("\nEl sistema finalizó correctamente. Consulte logs/software_fj.log.")
+    print("\nEl sistema finalizó correctamente. Consulte logs/software-fj-fase4-individual.log.")
 
 
 if __name__ == "__main__":
