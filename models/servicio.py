@@ -4,7 +4,7 @@ from models.entidad import Entidad
 from exceptions.excepciones import DatosInvalidosError, ReservaError
 
 class Servicio(Entidad, ABC):
-    """Clase abstracta para todos los servicios ofrecidos por software-fj-fase4-individual."""
+    """Clase abstracta para todos los servicios ofrecidos por SoftwareFjFase4Individual."""
 
     def __init__(self, identificador, nombre, tarifa_base, disponible=True):
         super().__init__(identificador)
