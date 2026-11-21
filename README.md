@@ -1,5 +1,5 @@
 # SoftwareFjFase4Individual
-Proyecto colaborativo – Sistema Integral de Gestión de Clientes, Servicios y Reservas – Programación 213023_6.
+Proyecto individual – Sistema Integral de Gestión de Clientes, Servicios y Reservas – Programación 213023_6.
 
 ## Descripción
 Sistema de consola en Python para administrar clientes, servicios y reservas mediante POO. No utiliza bases de datos: la información de negocio se conserva en listas durante la ejecución. Los eventos y errores se registran en `logs/SoftwareFjFase4Individual.log`.
